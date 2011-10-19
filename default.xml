@@ -11,13 +11,13 @@
   <default revision="gingerbread"
            remote="github" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="rikaunite/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="rikaunite/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
@@ -162,7 +162,7 @@
   <project path="ndk" name="CyanogenMod/android_ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
   <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" revision="master"/>
-  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" />
+  <project path="packages/apps/ADWLauncher" name="rikaunite/android_packages_apps_ADWLauncher" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
@@ -170,7 +170,7 @@
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMParts" name="rikaunite/android_packages_apps_CMParts" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
   <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" />
   <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" />
@@ -184,7 +184,7 @@
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" />
   <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
-  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" />
+  <project path="packages/apps/Gallery3D" name="rikaunite/android_packages_apps_Gallery3D" />
   <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
@@ -232,7 +232,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="rikaunite/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -241,6 +241,6 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="rikaunite/android" />
 
 </manifest>
